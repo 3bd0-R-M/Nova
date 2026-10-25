@@ -24,7 +24,7 @@ for k,ar,en in CATS:
         pages.append((en,ar,L[i:i+4],n)); n+=1
 wa="https://wa.me/"+WHATSAPP_NUMBER
 body=f'''<section class="pg cover"><div class="tiny">ACCESSORIES • EST. 2026</div><div><h1>NOVA<br>ATELIER</h1><p class="tag">Timeless style, thoughtfully chosen.</p><p class="big">Elegance in every detail.</p><p class="arb">أحذية • حقائب • إكسسوارات</p></div>
-<div class="sw"><i style="background:#29251F"></i><i style="background:#876C4D"></i><i style="background:#F4F0E8"></i><i style="background:#B9A58A"></i></div><div class="tiny">Demo catalogue · كتالوج تجريبي · الأسعار بالجنيه المصري</div></section>
+</section>
 <section class="pg"><div class="eb">CONTENTS · المحتويات</div><h2>The collection</h2><div class="toc">{"".join(f'<div><span>{e} · {a}</span><b>{c} pieces</b><em>{pg}</em></div>' for e,a,pg,c in toc)}<div><span>Contact · تواصل معنا</span><b></b><em>{n}</em></div></div>
 <p class="note">Codes and prices are fictional demo data.<br>الأكواد والأسعار بيانات تجريبية افتراضية.</p><div class="ft"><span>NOVA ATELIER</span><span>2</span></div></section>'''
 for en,ar,L,pg in pages:
@@ -36,7 +36,7 @@ css='''@font-face{font-family:Cairo;src:url(fonts/Cairo.ttf);font-weight:200 100
 h1,h2,h3{font-family:PF,Cairo,serif;font-weight:500;margin:0}.tiny,.eb{font-size:8pt;letter-spacing:.2em;color:#876C4D;font-weight:600}
 .cover,.end{background:#29251F;color:#F4F0E8;display:flex;flex-direction:column;justify-content:space-between;padding:22mm 20mm}.cover .tiny,.end .tiny{color:#B9A58A}
 .cover h1{font-size:74pt;line-height:1;letter-spacing:.04em}.end h1{font-size:44pt;line-height:1.1}.tag{font-size:12pt;color:#B9A58A;margin:6mm 0}.big{font-family:PF;font-size:20pt;margin:14mm 0 2mm}.arb{font-size:15pt;margin:0}
-.sw{display:flex;gap:3mm}.sw i{width:22mm;height:22mm;border:1px solid #876C4D}.btn{display:inline-block;margin-top:8mm;background:#F4F0E8;color:#29251F;padding:4mm 9mm;text-decoration:none;font-size:11pt}
+.cover>div:nth-child(2){margin:auto 0}.btn{display:inline-block;margin-top:8mm;background:#F4F0E8;color:#29251F;padding:4mm 9mm;text-decoration:none;font-size:11pt}
 h2{font-size:30pt}.toc{margin-top:14mm}.toc div{display:flex;align-items:baseline;gap:6mm;border-bottom:1px solid #E5DED3;padding:5mm 0;font-size:14pt}.toc span{flex:1}.toc b{font-weight:400;color:#766C60;font-size:10pt}.toc em{font-style:normal;color:#876C4D;font-weight:700}
 .note{position:absolute;bottom:30mm;font-size:9pt;color:#766C60;line-height:1.7}
 .hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #B9A58A;padding-bottom:4mm;margin-bottom:7mm}.arh{font-size:20pt;color:#876C4D}
