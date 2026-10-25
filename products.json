@@ -25,7 +25,7 @@
     "color": "White",
     "description_en": "Clean lines for smart-casual looks.",
     "description_ar": "تصميم بسيط للإطلالات اليومية.",
-    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=900&q=82",
+    "image": "images/SH-002.jpg",
     "image_alt": "Illustrative product image for City Leather Sneaker",
     "demo_data": true
   },
@@ -85,7 +85,7 @@
     "color": "Charcoal",
     "description_en": "Contemporary shape with a versatile finish.",
     "description_ar": "تصميم عصري سهل التنسيق.",
-    "image": "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=82",
+    "image": "images/SH-006.jpg",
     "image_alt": "Illustrative product image for Urban High-Top",
     "demo_data": true
   },
@@ -115,7 +115,7 @@
     "color": "Stone",
     "description_en": "Lightweight comfort for everyday movement.",
     "description_ar": "راحة خفيفة للحركة اليومية.",
-    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=900&q=82",
+    "image": "images/SH-008.jpg",
     "image_alt": "Illustrative product image for Everyday Runner",
     "demo_data": true
   },
@@ -130,7 +130,7 @@
     "color": "Cognac",
     "description_en": "A spacious silhouette for work and weekends.",
     "description_ar": "مساحة عملية للعمل والخروجات.",
-    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=82",
+    "image": "images/BG-001.jpg",
     "image_alt": "Illustrative product image for Structured Tote",
     "demo_data": true
   },
@@ -190,7 +190,7 @@
     "color": "Ivory",
     "description_en": "A versatile accent from day to evening.",
     "description_ar": "قطعة مرنة من النهار إلى المساء.",
-    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=82",
+    "image": "images/BG-005.jpg",
     "image_alt": "Illustrative product image for Classic Shoulder Bag",
     "demo_data": true
   },
@@ -205,7 +205,7 @@
     "color": "Charcoal",
     "description_en": "Practical storage in a clean profile.",
     "description_ar": "تنظيم عملي بتصميم بسيط.",
-    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=82",
+    "image": "images/BG-006.jpg",
     "image_alt": "Illustrative product image for Everyday Backpack",
     "demo_data": true
   },
@@ -220,7 +220,7 @@
     "color": "Espresso",
     "description_en": "A compact essential for daily carry.",
     "description_ar": "قطعة أساسية صغيرة للاستخدام اليومي.",
-    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=900&q=82",
+    "image": "images/AC-001.jpg",
     "image_alt": "Illustrative product image for Slim Leather Wallet",
     "demo_data": true
   },
@@ -265,7 +265,7 @@
     "color": "Black / Gold",
     "description_en": "A classic frame with modern restraint.",
     "description_ar": "إطار كلاسيكي بلمسة عصرية.",
-    "image": "https://images.unsplash.com/photo-1584036553516-bf83210aa16c?auto=format&fit=crop&w=900&q=82",
+    "image": "images/AC-004.jpg",
     "image_alt": "Illustrative product image for Everyday Sunglasses",
     "demo_data": true
   },
@@ -295,7 +295,7 @@
     "color": "Bronze",
     "description_en": "A small detail with a polished finish.",
     "description_ar": "تفصيلة صغيرة بلمسة أنيقة.",
-    "image": "https://images.unsplash.com/photo-1603508102977-02688e3265fd?auto=format&fit=crop&w=900&q=82",
+    "image": "images/AC-006.jpg",
     "image_alt": "Illustrative product image for Metal Detail Keyring",
     "demo_data": true
   }
