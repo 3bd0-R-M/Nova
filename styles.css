@@ -20,3 +20,8 @@
 .quick-view{border-radius:14px}
 .search-box,select,.button{border-radius:999px}
 @media(prefers-reduced-motion:reduce){.product-card:hover .product-image{transform:none}}
+
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.button-outline{background:transparent;color:var(--ink);border-color:var(--sand)}.button-outline:hover{background:var(--ivory);border-color:var(--bronze)}
+.pdf-link{color:var(--ink);text-decoration:none;font-size:12px;border:1px solid var(--sand);border-radius:999px;padding:9px 16px;white-space:nowrap}.pdf-link:hover{border-color:var(--bronze);color:var(--bronze)}
+@media(max-width:620px){.header-actions{gap:10px}.pdf-link{font-size:11px;padding:8px 12px}.hero-actions .button{width:100%}}
