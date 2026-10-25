@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="NOVA Atelier — a bilingual demo catalog for shoes, bags and accessories.">
+<title>NOVA Atelier — Product Catalogue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="demo-banner" data-i18n="demoBanner">DEMO CATALOGUE · Sample products and prices</div>
+<header class="site-header">
+  <a class="brand" href="#" aria-label="NOVA Atelier home"><span class="brand-mark">N</span><span><b>NOVA</b><small>ATELIER</small></span></a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="#catalog" data-i18n="navShop">Catalogue</a><a href="#story" data-i18n="navStory">Our style</a><a href="#contact" data-i18n="navContact">Contact</a>
+  </nav>
+  <div class="header-actions"><button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language">عربي</button><a class="bag-link" href="#catalog" aria-label="Browse products">↗</a></div>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow" data-i18n="heroEyebrow">THE SIGNATURE EDIT · 2026</p>
+    <h1 data-i18n="heroTitle">Elegance in<br><em>every detail.</em></h1>
+    <p class="hero-description" data-i18n="heroDesc">Considered essentials for the way you move, work and live.</p>
+    <a class="button button-dark" href="#catalog"><span data-i18n="explore">Explore the collection</span><span>↗</span></a>
+    <div class="hero-note"><span class="note-line"></span><span data-i18n="heroNote">Shoes · Bags · Accessories</span></div>
+  </div>
+  <div class="hero-visual">
+    <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1400&q=88" alt="Elegant handbag in a neutral studio setting">
+    <div class="image-caption"><span>01 / 03</span><span data-i18n="heroCaption">Objects of everyday elegance</span></div>
+    <div class="hero-stamp">N<br><small>A</small></div>
+  </div>
+</section>
+<section class="category-strip" aria-label="Shop by category">
+  <button class="category-chip active" data-category="All" data-i18n="all">All pieces</button>
+  <button class="category-chip" data-category="Shoes" data-i18n="shoes">Shoes</button>
+  <button class="category-chip" data-category="Bags" data-i18n="bags">Bags</button>
+  <button class="category-chip" data-category="Accessories" data-i18n="accessories">Accessories</button>
+</section>
+<section id="catalog" class="catalog-section">
+  <div class="section-heading">
+    <div><p class="eyebrow" data-i18n="curated">CURATED FOR YOU</p><h2 data-i18n="catalogTitle">The collection</h2></div>
+    <div class="catalog-tools"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search pieces..." data-i18n-placeholder="searchPlaceholder" aria-label="Search products"></label><select id="sortSelect" aria-label="Sort products"><option value="featured" data-i18n="sortFeatured">Featured</option><option value="low" data-i18n="sortLow">Price: low to high</option><option value="high" data-i18n="sortHigh">Price: high to low</option></select></div>
+  </div>
+  <p class="results-line"><span id="resultCount">20</span> <span data-i18n="piecesFound">pieces to discover</span></p>
+  <div id="productGrid" class="product-grid" aria-live="polite"></div>
+</section>
+<section id="story" class="story-section">
+  <div class="story-image"><img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=1100&q=85" alt="Timeless everyday bag"></div>
+  <div class="story-copy"><p class="eyebrow" data-i18n="ourApproach">OUR APPROACH</p><h2 data-i18n="storyTitle">Less, but<br><em>chosen well.</em></h2><p data-i18n="storyDesc">A considered edit of everyday pieces, selected for their shape, function and enduring character.</p><a href="#catalog" class="text-link"><span data-i18n="viewPieces">View all pieces</span> ↗</a></div>
+</section>
+<section id="contact" class="contact-section"><div><p class="eyebrow" data-i18n="needHelp">NEED A HAND?</p><h2 data-i18n="contactTitle">Find your next<br>favourite.</h2></div><div><p data-i18n="contactDesc">Questions about sizes, colours or availability? Get in touch with our team.</p><a id="whatsappLink" class="button button-light" href="#" target="_blank" rel="noopener"><span data-i18n="contactUs">Contact us on WhatsApp</span><span>↗</span></a><small data-i18n="whatsappNote">Demo link — replace with the shop’s real number before publishing.</small></div></section>
+</main>
+<footer class="site-footer"><a class="brand brand-footer" href="#"><span class="brand-mark">N</span><span><b>NOVA</b><small>ATELIER</small></span></a><p data-i18n="footerDemo">Independent concept project · All products and prices are fictional.</p><span>© 2026 NOVA ATELIER</span></footer>
+<div id="productModal" class="modal" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalName"><button class="modal-close" type="button" aria-label="Close" data-close-modal>×</button><div id="modalContent"></div></div></div>
+<script src="app.js"></script>
+</body>
+</html>
